@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+body{
+	background: #ccc url(../img/bg03.jpg) repeat-y fixed top center;
+
+}
+.section{
+	width: 80%;
+	margin: 100px auto;
+	height: 500px;
+	background-color: black;
+	opacity: 0.7;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+.sec1{
+	margin-top: 200px;
+}
+.content{
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: -600px;
+	position: relative;
+	color: white;
+}
+#header h1{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 50px;
+}
+#header img{
+	margin-left: 50%;
+	position: relative;
+	left: -80px;
+	top: -80px;
+}
